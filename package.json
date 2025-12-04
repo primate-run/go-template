@@ -1,0 +1,19 @@
+{
+  "name": "@primate/app/go",
+  "description": "Primate Go template",
+  "type": "module",
+  "scripts": {
+    "start": "npx primate",
+    "build": "npx primate build",
+    "serve": "npx primate serve",
+    "test": "npx primate test",
+    "test:deno": "deno run -A npm:primate test",
+    "test:bun": "bun x --bun primate test"
+  },
+  "dependencies": {
+    "@primate/go": "^0.4.0",
+    "@primate/svelte": "^0.21.2",
+    "primate": "^0.35.1",
+    "svelte": "^5.43.15"
+  }
+}
